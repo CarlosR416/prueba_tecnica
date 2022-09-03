@@ -1,0 +1,278 @@
+/* backgrounds helpers*/
+
+    .bg-nan{
+        background-color: #00000000;
+    }
+
+    .bg-one {
+        background-color: #02557d;
+    }
+
+    .bg-two{
+        background-color: #ffffff;
+    }
+
+    .shadow-one{
+        width: 100%;
+        height: 100%;
+        background: #00425c61;
+    }
+
+
+/* Buttons helpers*/
+
+.btn-two{
+    background-color: #fcfcfc;
+    border: solid #ffb749 1px;
+    color: #ffb749;
+    border-radius: 20px;
+    padding: 5px 3rem;
+}
+
+.btn-two:hover{
+    background-color: #00000000;
+    border: solid #02557d 1px;
+    color: #02557d;
+}
+
+.btn-one{
+    background-color: #ffb749;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 3rem;
+    border-radius: 20px;
+    border: solid #fcfcfc 2px;
+}
+
+.btn-one:hover{
+    background-color: #00000000;
+    border: solid #ffb749 2px;
+    color: #ffb749;
+}
+
+.btn-orange{
+    background-color: #ffffff;
+    color: #f36100;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 35px;
+}
+
+.btn-orange:hover{
+    color: #c75102;
+    background-color: #d6d6d6;
+}
+
+.btn-footer{
+    padding: 5px 21px;
+    border-radius: 20px!important;
+    left: -15px;
+    background-color: #ffb749;
+    border: solid #fff 2px;
+    color: white;
+}
+
+.btn-footer:hover{
+    background-color: #153e55;
+    color: #ffb749;
+}
+
+
+/* text helpers */
+
+.text-color-one{
+    color: #153e55;
+}
+
+.text-color-two{
+    color: #ffb749;
+}
+
+.text-bold{
+    font-weight: 800;
+}
+
+.text-color-orange{
+    color: #f36100
+}
+
+
+
+/* Border Helpers*/
+
+.border-color-one{
+    border-color: #ffb749;
+    border-width: 4px;
+}
+
+.border-md:hover{
+    background-color: #00000059;
+    border-radius: 4px;
+}
+
+
+/* helpers list*/
+
+.ul-title{    
+    padding: 0;
+    color: #ffb749;
+    font-size: 1.6rem;
+}
+
+
+/* Card Helpers*/
+
+.card-one{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-one{
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* form helpers*/
+
+.form-input-one{
+    background-color: #d6d6d6;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.input-footer{
+    border-radius: 20px;
+}
+
+/********************* Sections ********************/
+
+/* Header */
+.bg-one .nav-link{
+    color: #fff;
+}
+
+.bg-two .nav-link{
+    color: #02557d;
+}
+
+/* section Hero*/
+
+/*#Hero{
+    background-image: url(../imagenes/IMAGEN\ HERO.jpg);
+    background-size: cover;
+    width: 100%;
+}*/
+
+
+.shadow-video{
+    position: absolute;
+    height: 728px;
+    width: 100%;
+    background: #0000007d;
+    
+}
+
+#Hero .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 728px;
+    z-index: 0;
+    border-bottom: solid #ffb749 4px;
+    background: #000
+}
+#Hero .video-container video{
+
+    height: 100%;
+    border-bottom: solid #02557d 4px;
+    display: block;
+    margin: auto;
+}
+
+/* secction benefits */
+
+#bg-benefits{
+    background-image: url(../imagenes/BACKGROUND\ BENEFITS.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+#bg-benefits > div {
+    width: 100%;
+    height: 100%;
+    background: #052738ad;
+}
+
+
+/* section team*/
+
+.bg-img-team{
+    width: 100%; 
+    height: 95px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../imagenes/IMAGE\ BACKGROUND\ CARD\ TEAM.jpg);
+}
+
+/* section Courses */
+
+.hover-push:hover{
+    padding: 0px!important;
+    cursor: pointer;
+}
+
+/* section reviews*/
+
+.play-icon:before{
+    background-color: #d6d6d6;
+    border-radius: 100px;
+    
+}
+
+.play-icon{
+    font-size: 5rem;
+}
+
+.play-icon:hover{
+    cursor: pointer;
+    color: #c75102
+}
+
+.play-icon:active{
+    font-size: 4.5rem;
+}
+
+/* section footer*/
+
+footer .nav-link:hover{
+    color: #d6d6d6;
+}
+
+/*********************** Media **************/
+
+@media only screen and (min-width: 768px) {
+    .h-305{
+        height: 305px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .h-305{
+        height: 150px;
+    }
+
+    .border-md{
+        border-bottom: solid #e3e4e6 1px;
+    }
+
+    .fixed-top .bg-nan{
+        background: #00000065!important;
+    }
+}
